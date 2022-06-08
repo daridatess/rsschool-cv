@@ -6,7 +6,7 @@
 ### Telegram: @ChakiJen
 ### Discord: @Helios
 ---
-# #Shortly about myself:
+# Shortly about myself:
 My goal from this course is to gain knowledge for self-realization in the field of IT developer.
 
 I consider my strengths to be such as perseverance, solving the problem qualitatively and to the end, without putting it off for later.
