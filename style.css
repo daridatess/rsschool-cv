@@ -1,1 +1,175 @@
+body {
+    padding: 0;
+    margin: 0;
+}
 
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    font-style: normal;
+    font-weight: 600;
+    margin: 0%;
+    line-height: 50px;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    font-style: normal;
+    font-weight: 400;
+    margin: 0;
+}
+.text-code-example  {
+    background-color: #212d45;
+}
+
+.wrapper {
+    padding: 2% 15%;
+}
+
+main {
+    background-color: blue;
+    box-shadow: 0px 0px 80px #868686;
+}
+
+.my-data {
+    width: 70%;
+    background-color: #807e7a;
+    padding: 50px 50px 50px 20px;
+}
+
+.about-my {
+    max-width: 100%;
+}
+.text-about {
+    text-align: left;
+}
+
+.container {
+    margin: 40px 0px 20px 30px;
+    max-width: 490px;
+}
+
+.title {
+    height: 50px;
+    background-color: #83583f;
+    border-radius: 0 50px 50px 0;
+    margin: 0px 0 30px 0;
+    padding: 0 50px;
+    display: inline-block;
+}
+
+.text-skills {
+    width: 100%;
+}
+
+.info-skills {
+    display: block;
+    width: 50%;
+    background-color: #807e7a;
+}
+
+.skills {
+    width: 50%;
+    background-color: #3a3a3c;
+    border-radius: 6px;
+    display: block;
+    height: 100%;
+    border: 1px solid black;
+    overflow: hidden;
+    text-align: center;
+
+}
+
+.container-skills {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+
+}
+
+.html {
+    width: 70%;
+    background-color: #736a49;
+}
+
+.css {
+    width: 70%;
+    background-color: #736a49;
+}
+
+.js {
+    width: 15%;
+    background-color: #736a49;
+}
+
+.git {
+    width: 15%;
+    background-color: #736a49;
+}
+.vscode {
+    width: 35%;
+    background-color: #736a49;
+}
+.adobe  {
+    width: 30%;
+    background-color: #736a49;
+}
+
+
+
+
+.container-my-info  {
+    border-radius: 30px;
+    background-color:#f1f1f1 ;
+    width: 300px;
+    height: 500px;
+    display: block;
+    position: fixed;
+    left: 770px;
+    top: 60px;
+ }
+ .container-info    {
+    margin: 35px;
+    overflow: hidden;
+ }
+ .my-photo  {
+    margin-bottom: 20px;
+ }
+ .contacts  {
+    margin-top:10%;
+ }
+ .contacts p    {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    font-style: normal;
+    font-weight: 400;
+    margin: 0;
+ }
+ .contacts h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    font-style: normal;
+    font-weight: 600;
+    margin: 0;
+ }
+ h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 26px;
+    color: rgb(0, 0, 0);
+    font-style: normal;
+    font-weight: 900;
+    margin: 0;
+ }
+ .title-name h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2;
+ }
