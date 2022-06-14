@@ -125,21 +125,25 @@ main {
     border-radius: 30px;
     background-color:#f1f1f1 ;
     width: 300px;
-    height: 500px;
+    height: 550px;
     display: block;
     position: fixed;
     left: 770px;
-    top: 60px;
+    top: 40px;
  }
  .container-info    {
-    margin: 35px;
+    margin: 40px;
     overflow: hidden;
  }
  .my-photo  {
     margin-bottom: 20px;
  }
- .contacts  {
-    margin-top:10%;
+ .my-photo img  {
+    max-width: 220px;
+ }
+ .title-contact     {
+    margin: 0;
+    height: 35px;
  }
  .contacts p    {
     font-family: 'Montserrat', sans-serif;
