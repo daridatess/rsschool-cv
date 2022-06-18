@@ -66,7 +66,7 @@ main {
 .my-data {
     width: 55%;
     background: linear-gradient(#a775b6, #165f95, #44a5d1, #a775b6);
-    padding: 50px 50px 50px 20px;
+    padding: 50px 50px 0px 20px;
 }
 
 .about-my {
@@ -197,7 +197,7 @@ main {
     display: block;
     position: absolute;
     left: 500px;
-    top: 40px;
+    top: 0px;
 }
 
 .container-info {
@@ -209,7 +209,7 @@ main {
     display: block;
     position: sticky;
     left: 220px;
-    top: 70px;
+    top: 50px;
     padding: 30px 30px 30px 30px;
     overflow: hidden;
 }
@@ -283,4 +283,34 @@ h1 {
 .svg object {
     height: 19px;
     margin-right: 10px;
+}
+
+
+  /* FOOTER */
+
+
+  .footer   {
+    position: static;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    line-height: 4;
+    border-top: 1px solid rgba(73, 18, 94, 0.42);
+  }
+.my-github a   {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: rgb(61, 59, 59);
+    font-style: normal;
+    font-weight: 600;
+
+}
+.my-github  {
+        line-height: 3.5;
+}
+.logo-github img  {
+    width: 60px;
+    height: 50px;
+    line-height: 4;
 }
