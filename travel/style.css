@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Constantia';
+    src: url(assets/fonts/Constantia/constantia.ttf);
+    font-style: normal;
+    font-weight: 400;
+}
+
+.title-section {
+    background-image: url(assets/img/bg/bg-section-1.png);
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.wrapper {
+    max-width: 1440px;
+}
+
+/* header */
+
+header {
+    background-color: rgba(242, 120, 92, 0.7);
+    padding: 0 120px 0 120px;
+}
+
+.nav-items-travel {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 90px;
+    align-items: center;
+}
+
+.logo-travel {
+    display: flex;
+
+}
+
+.title-logo h2 {
+    font-family: 'Constantia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    color: #FFFFFF;
+}
+
+.logo-travel img {
+    width: 30px;
+}
+
+.menu-items-travel {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-items-travel a {
+    font-family: 'Red Hat Text', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.menu-items-travel ul:not(:first-child) {
+    margin-left: 42px;
+}
+
+button {
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    background-color: #0D606F;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 103px;
+    height: 41px;
+    border-radius: 10px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
