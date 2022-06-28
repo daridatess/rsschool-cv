@@ -1,1 +1,1 @@
-https://daridatess.github.io/rsschool-cv/
+https://daridatess.github.io/rsschool-cv/travel/index.html
