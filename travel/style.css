@@ -26,13 +26,13 @@ a {
 
 .wrapper {
     max-width: 1440px;
+    overflow: hidden;
 }
 .title h2  {
     font-family: 'Red Hat Text';
     font-style: normal;
     font-weight: 500;
     font-size: 40px;
-    line-height: 53px;
     color: #F2785C;
 }
 .title {
@@ -58,7 +58,11 @@ header {
 
 .logo-travel {
     display: flex;
+    margin-bottom: 6px;
+}
 
+.title-logo {
+    margin-left: 6px;
 }
 
 .title-logo h2 {
@@ -70,13 +74,10 @@ header {
     color: #FFFFFF;
 }
 
-.logo-travel img {
-    width: 30px;
-}
-
 .menu-items-travel {
     display: flex;
     justify-content: space-between;
+    margin-right: 32px;
 }
 
 .menu-items-travel a {
@@ -128,9 +129,9 @@ header {
     font-style: normal;
     font-weight: 700;
     font-size: 80px;
-    line-height: 96px;
+    line-height: 95px;
     color: #FFFFFF;
-    margin-bottom: 46px;
+    margin-bottom: 33px;
 }
 
 .trip-recomendation p {
@@ -140,7 +141,7 @@ header {
     font-size: 20px;
     line-height: 24px;
     color: #FFFFFF;
-    margin-bottom: 46px;
+    margin-bottom: 47px;
 }
 
 input:-moz-placeholder {
@@ -185,19 +186,9 @@ input {
     cursor: pointer;
     border-radius: 10px;
     position: relative;
-    left: 650px;
+    left: 646px;
     top: -77px;
 }
-
-.btn-main:before {
-    content: "";
-    font-family: FontAwesome;
-    color: #F9F0DA;
-    font-size: 20px;
-    font-weight: bold;
-}
-
-
 
     /* STEP */
 
@@ -221,11 +212,107 @@ input {
     font-size: 20px;
     line-height: 24px;
     color: #0D606F;
-    margin-top: 30px;
+    margin: 25px 0 18px 0;
 }
+
+    /* POPULAR DESTINATIONS */
+
+
 .pictures-countries-items   {
     display: flex;
-}
-.pictures-countries-items span{
+    flex: 0 0 50%;
+} 
+.pictures-countries-item span{
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 42px;
+    color: #FFFFFF;
     position: relative;
+    left: calc(50% - 95px/2 - 337.5px);
+    top: calc(50% - 42px/2 + 339px);
+} 
+
+.pictures-countries-item img    {
+        border-radius: 16px;
 }
+.btn-search-more    {
+    height: 59px;
+    width: 228px;
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    background-color: rgba(13, 96, 111, 1);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 3px rgba(13, 96, 111, 0.16);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 43px auto;
+    display: block;
+}
+.btn-search-more img    {
+    margin-right: 10px;
+}
+
+        /* STORIES  */
+.travel-stories     {
+        position: relative;
+}
+.travel-blocks  {
+    background: rgba(255, 255, 255, 0.7);
+    padding: 40px 120px 40px 120px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 25px;
+}
+.background-img {
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    top: 93px;
+
+}
+.travel-block-items {
+    display: flex;
+}
+.travel-img-item img    {
+    border-radius: 16px;    
+    margin-right: 40px;
+    filter: drop-shadow(0px 4px 4px #0D606F);
+    border-radius: 16px;
+}
+.travel-description-text h2 {
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 42px;
+    color: #0D606F;
+}
+.travel-description-text p{
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #0D606F;
+    margin-top: 24px;
+}
+.read-more  {
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration-line: underline;
+    color: #0D606F;
+}
+
+
+
