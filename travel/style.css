@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 }
+
 @font-face {
     font-family: 'Constantia';
     src: url(assets/fonts/Constantia/constantia.ttf);
@@ -28,16 +29,18 @@ a {
     max-width: 1440px;
     overflow: hidden;
 }
-.title h2  {
+
+.title h2 {
     font-family: 'Red Hat Text';
     font-style: normal;
     font-weight: 500;
     font-size: 40px;
     color: #F2785C;
 }
+
 .title {
     text-align: center;
-    margin:80px 0 40px 0;
+    margin: 80px 0 40px 0;
 }
 
 /* header */
@@ -124,7 +127,8 @@ header {
     margin-left: 120px;
 }
 
-.title-plan-trip, h1 {
+.title-plan-trip,
+h1 {
     font-family: 'Aleo', serif;
     font-style: normal;
     font-weight: 700;
@@ -153,7 +157,8 @@ input:-moz-placeholder {
 .travel-search {
     display: flex;
 }
-form{
+
+form {
     width: 100%;
 }
 
@@ -190,9 +195,9 @@ input {
     top: -77px;
 }
 
-    /* STEP */
+/* STEP */
 
-.title h2  {
+.title h2 {
     font-family: 'Red Hat Text';
     font-style: normal;
     font-weight: 500;
@@ -200,12 +205,14 @@ input {
     line-height: 53px;
     color: #F2785C;
 }
+
 .step-items {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     text-align: center;
 }
-.step-information li   {
+
+.step-information li {
     font-family: 'Aleo';
     font-style: normal;
     font-weight: 400;
@@ -215,14 +222,15 @@ input {
     margin: 25px 0 18px 0;
 }
 
-    /* POPULAR DESTINATIONS */
+/* POPULAR DESTINATIONS */
 
 
-.pictures-countries-items   {
+.pictures-countries-items {
     display: flex;
     flex: 0 0 50%;
-} 
-.pictures-countries-item span{
+}
+
+.pictures-countries-item span {
     font-family: 'Red Hat Text';
     font-style: normal;
     font-weight: 500;
@@ -232,12 +240,14 @@ input {
     position: relative;
     left: calc(50% - 95px/2 - 337.5px);
     top: calc(50% - 42px/2 + 339px);
-} 
-
-.pictures-countries-item img    {
-        border-radius: 16px;
 }
-.btn-search-more    {
+
+.pictures-countries-item img {
+    border-radius: 16px;
+    margin-bottom: 40px;
+}
+
+.btn-search-more {
     height: 59px;
     width: 228px;
     font-family: 'Red Hat Text';
@@ -250,27 +260,29 @@ input {
     border: none;
     cursor: pointer;
     border-radius: 10px;
-    margin: 43px auto;
+    margin: 40px auto;
     display: block;
 }
-.btn-search-more img    {
+
+.btn-search-more img {
     margin-right: 10px;
 }
 
-        /* STORIES  */
-.travel-stories     {
-        position: relative;
+/* STORIES  */
+.travel-stories {
+    position: relative;
 }
-.travel-blocks  {
+
+.travel-blocks {
     background: rgba(255, 255, 255, 0.7);
     padding: 40px 120px 40px 120px;
     background-repeat: no-repeat;
     background-size: 100%;
     display: grid;
     grid-template-rows: repeat(3, 1fr);
-    grid-column-gap: 20px;
     grid-row-gap: 25px;
 }
+
 .background-img {
     position: absolute;
     z-index: -1;
@@ -278,15 +290,18 @@ input {
     top: 93px;
 
 }
+
 .travel-block-items {
     display: flex;
 }
-.travel-img-item img    {
-    border-radius: 16px;    
+
+.travel-img-item img {
+    border-radius: 16px;
     margin-right: 40px;
     filter: drop-shadow(0px 4px 4px #0D606F);
     border-radius: 16px;
 }
+
 .travel-description-text h2 {
     font-family: 'Aleo';
     font-style: normal;
@@ -295,7 +310,8 @@ input {
     line-height: 42px;
     color: #0D606F;
 }
-.travel-description-text p{
+
+.travel-description-text p {
     font-family: 'Aleo';
     font-style: normal;
     font-weight: 400;
@@ -304,7 +320,8 @@ input {
     color: #0D606F;
     margin-top: 24px;
 }
-.read-more  {
+
+.read-more {
     font-family: 'Aleo';
     font-style: normal;
     font-weight: 700;
@@ -314,5 +331,36 @@ input {
     color: #0D606F;
 }
 
+.btn-see {
+    margin: 14px auto 0;
+}
 
+/* FOOTER */
 
+footer {
+    display: flex;
+    height: 61px;
+    position: relative;
+}
+
+.copyrigh {
+    position: absolute;
+    left: 41%;
+    top: 21px;
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    margin: auto 0;
+}
+
+.svg-message {
+    position: absolute;
+    right: 120px;
+    top: 16px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    margin: auto 0;
+}
