@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <nav class="nav-items-travel">
+                <div class="logo-travel">
+                    <img src="assets/img/icons/svg/Vector.svg" alt="logo-travel">
+                    <div class="title-logo">
+                        <h2>Travel Portal</h2>
+                    </div>
+                </div>
+                <div class="menu-btn" onclick="showActive()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="menu-items-travel">
+                    <ul>
+                        <li>
+                            <a href="">How It Works</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="">Plan Your Trip</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="">Destinations</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="">Travel Stories</a>
+                        </li>
+                    </ul>
+                    <ul class="mobile-menu-items">
+                        <li>
+                            <a href="">Account</a>
+                        </li>
+                    </ul>
+                    <ul class="mobile-menu-items">
+                        <li>
+                            <a href="">Social Media</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="login-travel-button">
+                    <button class="btn-login" type="button" onclick="showWindow()">Login</button>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <section class="preview">
+                <div class="mobile-background-image">
+                    <img src="assets/img/bg/mobile/bg-section1.png" alt="background">
+                </div>
+                <div class="plan-trip">
+                    <div class="title-plan-trip">
+                        <h1>Explore the beauty of the World</h1>
+                    </div>
+                    <div class="trip-recomendation">
+                        <p>Receive personalized recommendations for countries, hotels, activities and more</p>
+                    </div>
+                    <div class="travel-search">
+                        <form action="#" method="get">
+                            <input name="trip" placeholder="What would you like to do?" type="search">
+                            <button class="btn-main" type="submit">Start Planning</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+            <section class="steps-trip">
+                <div class="step-selection">
+                    <div class="title-step title">
+                        <h2>3 STEPS TO THE PERFECT TRIP</h2>
+                    </div>
+                    <div class="step-items">
+                        <div class="step-item">
+                            <div class="img-step">
+                                <img src="assets/img/icons/bike-step.png" alt="bike">
+                            </div>
+                            <div class="step-information">
+                                <ul>
+                                    <li>Tell us what you want to do</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="step-item">
+                            <div class="img-step">
+                                <img src="assets/img/icons/calendar-step.png" alt="calendar">
+                            </div>
+                            <div class="step-information">
+                                <ul>
+                                    <li>Share us preferable dates </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="step-item">
+                            <div class="img-step">
+                                <img src="assets/img/icons/airplane-step.png" alt="airplane">
+                            </div>
+                            <div class="step-information">
+                                <ul>
+                                    <li>We will give you recommendations</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+            <section class="destinations">
+                <div class="popualr-destinations-slider">
+                    <div class="title-destinations title">
+                        <h2>POPULAR DESTINATIONS</h2>
+                    </div>
+                    <div class="pictures-countries-items">
+                        <div class="pictures-countries-item">
+                            <span>JAPAN</span>
+                            <img src="assets/img/countri/japan.png" alt="picture">
+                        </div>
+                        <div class="pictures-countries-item">
+                            <span>SPAIN</span>
+                            <img src="assets/img/countri/spain.png" alt="picture">
+                        </div>
+                        <div class="pictures-countries-item">
+                            <span>USA</span>
+                            <img src="assets/img/countri/usa.png" alt="picture">
+                        </div>
+                        <ol class="slider__indicators">
+                            <li data-slide-to="0"></li>
+                            <li data-slide-to="1"></li>
+                            <li data-slide-to="2"></li>
+                            <li data-slide-to="3"></li>
+                            <li data-slide-to="4"></li>
+                        </ol>
+                    </div>
+                    <div> <button class="btn-search-more" type="submit"> <img src="assets/img/icons/Vector.png"
+                                alt="vector">
+                            Find More</button></div>
+
+                </div>
+
+            </section>
+            <section class="stories">
+                <div class="travel-stories">
+                    <div class="title-stories title">
+                        <h2>TRAVEL STORIES</h2>
+                    </div>
+                    <div class="background-img">
+                        <img src="assets/img/bg/bg-section-2.png" alt="background" class="main-background">
+                        <img src="assets/img/bg/mobile/bg-section2.png" alt="background" class="mobile-background">
+                    </div>
+                    <div class="travel-blocks">
+                        <div class="travel-block-items">
+                            <div class="travel-img-item">
+                                <img src="assets/img/countri/history2.png" alt="img" class="main-img">
+                                <img src="assets/img/countri/mobile/history1.png" alt="img" class="mobile-img">
+                            </div>
+                            <div class="travel-description-text">
+                                <h2>10 Photos of Attractive Thailand</h2>
+                                <p class="mine-description-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                    deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit... <span class="read-more">Read More</span> 
+                                </p>
+                                <p class="mobile-description-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                                    nulla.Lorem ipsum dolor sit a... <span class="read-more">Read More</span>
+                                 </p>
+                            </div>
+                        </div>
+                        <div class="travel-block-items">
+                            <div class="travel-img-item">
+                                <img src="assets/img/countri/history1.png" alt="img" class="main-img">
+                                <img src="assets/img/countri/mobile/history2.png" alt="img" class="mobile-img">
+                            </div>
+                            <div class="travel-description-text">
+                                <h2>Canyonlands National Park, Utah</h2>
+                                <p class="mine-description-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                    deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit... <span class="read-more">Read More</span>
+                                </p>
+                                <p class="mobile-description-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                                    nulla.Lorem ipsum dolor sit a... <span class="read-more">Read More</span> 
+                                </p>
+                            </div>
+                        </div>
+                        <div class="travel-block-items">
+                            <div class="travel-img-item">
+                                <img src="assets/img/countri/history3.png" alt="img" class="main-img">
+                                <img src="assets/img/countri/mobile/history3.png" alt="img" class="mobile-img">
+                            </div>
+                            <div class="travel-description-text">
+                                <h2>I left my heart in the Mountains!</h2>
+                                <p class="mine-description-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                    deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit... <span class="read-more">Read More</span></p>
+                                <p class="mobile-description-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                                    nulla.Lorem ipsum dolor sit a... <span class="read-more">Read More</span> 
+                                </p>
+                            </div>
+                        </div>
+                        <div class="travel-block-items">
+                            <div class="travel-img-item">
+                                <img src="assets/img/countri/history4.png" alt="img" class="main-img">
+                                <img src="assets/img/countri/mobile/history4.png" alt="img" class="mobile-img">
+                            </div>
+                            <div class="travel-description-text">
+                                <h2>The Longest journey in my life!</h2>
+                                <p class="mine-description-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                    deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit... <span class="read-more">Read More</span>
+                                </p>
+                                <p class="mobile-description-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                                    nulla.Lorem ipsum dolor sit a... <span class="read-more">Read More</span> 
+                                </p>
+                            </div>
+                        </div>
+                        <div>
+                            <button class="btn-search-more btn-see" type="submit">
+                                <img src="assets/img/icons/Vector.png" alt="vector">
+                                See More
+                            </button>
+                        </div>
+                    </div>
+                    <footer>
+                        <div class="copyrigh"><span>All Rights Reserved © Travel Portal</span></div>
+                        <div class="svg-message">
+                            <div><img src="assets/img/icons/svg/message/instagram.svg" alt="message"></div>
+                            <div><img src="assets/img/icons/svg/message/youtube.svg" alt="message"></div>
+                            <div><img src="assets/img/icons/svg/message/twiter.svg" alt="message"></div>
+                        </div>
+                    </footer>
+                </div>
+            </section>
+        </main>
+    </div>
+    <div class="form-pop" onclick="showloginNone()">
+        <form action="#">
+            <div class="container">
+                <div class="title-pop">
+                    <h1>Log in to your account</h1>
+                </div>
+                <div class="col">
+                    <div class="btn-sign fb-btn">
+                        <div class="btn-sign-text">
+                            <img src="assets/img/icons/svg/log in/path14.png" alt="facebook">
+                            <a href="#">Sign In with Facebook</a>
+                        </div>
+                    </div>
+                    <div class="btn-sign google-btn">
+                        <div class="btn-sign-text">
+                            <img src="assets/img/icons/svg/log in/Google.svg" alt="google">
+                            <a href="#">Sign In with Google</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="line">
+                    <span class="line-text">or</span>
+                </div>
+                <div class="data-base">
+                    <div class="form-email">
+                        <label for="email"><span class="log-in-date">E-mail</span></label>
+                        <input type="text" name="email" required>
+                    </div>
+                    <div class="form-password">
+                        <label for="psw"><span class="log-in-date">Password</span></label>
+                        <input type="password" name="psw" required>
+                    </div>
+                </div>
+                <div class="btn">
+                    <button type="submit" class="register-btn">Sign In</button>
+                </div>
+                <div class="forgot-password">
+                    <a href="#">Forgot Your Password?</a>
+                </div>
+                <div class="line"></div>
+                <div class="register">
+                    <span>Don’t have an account?<a href="#"> Register</a></span>
+                </div>
+            </div>
+        </form>
+    </div>
+    <script src="style.js"></script>
+</body>
+
+</html>
