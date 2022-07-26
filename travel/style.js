@@ -4,10 +4,11 @@ function showWindow(){
   }
 
 
-let menuBtn = document.querySelector('#hamburger-menu');
-let menu = document.querySelector('.menu-items-travel');
-console.log(menuBtn)
-menuBtn.addEventListener('click', function(){
-	menuBtn.classList.toggle('active');
-	menu.classList.toggle('active');
-})
+
+
+function showActive(){
+  let menuBtn = document.querySelector('.menu-btn');
+  let menu = document.querySelector('.menu-items-travel');
+	menuBtn.classList.toggle('active-btn');
+	menu.classList.toggle('active-menu');
+}
