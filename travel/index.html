@@ -27,6 +27,11 @@
                         <h2>Travel Portal</h2>
                     </div>
                 </div>
+                <div class="menu-btn" id="hamburger-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
                 <div class="menu-items-travel">
                     <ul>
                         <li>
@@ -48,9 +53,19 @@
                             <a href="">Travel Stories</a>
                         </li>
                     </ul>
+                    <ul class="mobile-menu-items">
+                        <li>
+                            <a href="">Account</a>
+                        </li>
+                    </ul>
+                    <ul class="mobile-menu-items">
+                        <li>
+                            <a href="">Social Media</a>
+                        </li>
+                    </ul>
                 </div>
                 <div class="login-travel-button">
-                    <button class="btn-login" type="button">Login</button>
+                    <button class="btn-login" type="button" onclick="showWindow()">Login</button>
                 </div>
             </nav>
         </header>
@@ -149,79 +164,110 @@
             </section>
             <section class="stories">
                 <div class="travel-stories">
-                    <div class="title">
+                    <div class="title-stories title">
                         <h2>TRAVEL STORIES</h2>
                     </div>
                     <div class="background-img">
-                        <img src="assets/img/bg/bg-section-2.png" alt="background">
+                        <img src="assets/img/bg/bg-section-2.png" alt="background" class="main-background">
+                        <img src="assets/img/bg/mobile/bg-section2.png" alt="background" class="mobile-background">
                     </div>
                     <div class="travel-blocks">
                         <div class="travel-block-items">
                             <div class="travel-img-item">
-                                <img src="assets/img/countri/history2.png" alt="img">
+                                <img src="assets/img/countri/history2.png" alt="img" class="main-img">
+                                <img src="assets/img/countri/mobile/history1.png" alt="img" class="mobile-img">
                             </div>
                             <div class="travel-description-text">
                                 <h2>10 Photos of Attractive Thailand</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                <p class="mine-description-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                     incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
                                     exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
                                     irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
                                     pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
                                     deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit... <span class="read-more">Read More</span> </p>
+                                    adipiscing elit... <span class="read-more">Read More</span> 
+                                </p>
+                                <p class="mobile-description-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                                    nulla.Lorem ipsum dolor sit a... <span class="read-more">Read More</span>
+                                 </p>
                             </div>
                         </div>
                         <div class="travel-block-items">
                             <div class="travel-img-item">
-                                <img src="assets/img/countri/history1.png" alt="img">
+                                <img src="assets/img/countri/history1.png" alt="img" class="main-img">
+                                <img src="assets/img/countri/mobile/history2.png" alt="img" class="mobile-img">
                             </div>
                             <div class="travel-description-text">
                                 <h2>Canyonlands National Park, Utah</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                <p class="mine-description-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                     incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
                                     exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
                                     irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
                                     pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
                                     deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit... <span class="read-more">Read More</span></p>
+                                    adipiscing elit... <span class="read-more">Read More</span>
+                                </p>
+                                <p class="mobile-description-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                                    nulla.Lorem ipsum dolor sit a... <span class="read-more">Read More</span> 
+                                </p>
                             </div>
                         </div>
                         <div class="travel-block-items">
                             <div class="travel-img-item">
-                                <img src="assets/img/countri/history3.png" alt="img">
+                                <img src="assets/img/countri/history3.png" alt="img" class="main-img">
+                                <img src="assets/img/countri/mobile/history3.png" alt="img" class="mobile-img">
                             </div>
                             <div class="travel-description-text">
                                 <h2>I left my heart in the Mountains!</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                <p class="mine-description-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                     incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
                                     exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
                                     irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
                                     pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
                                     deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur
                                     adipiscing elit... <span class="read-more">Read More</span></p>
+                                <p class="mobile-description-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                                    nulla.Lorem ipsum dolor sit a... <span class="read-more">Read More</span> 
+                                </p>
                             </div>
                         </div>
                         <div class="travel-block-items">
                             <div class="travel-img-item">
-                                <img src="assets/img/countri/history4.png" alt="img">
-                            </div>
-                            <div class="travel-img-mobile-item">
-                                <img src="assets/img/countri/mobile/history1.png" alt="img">
+                                <img src="assets/img/countri/history4.png" alt="img" class="main-img">
+                                <img src="assets/img/countri/mobile/history4.png" alt="img" class="mobile-img">
                             </div>
                             <div class="travel-description-text">
                                 <h2>The Longest journey in my life!</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                <p class="mine-description-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                     incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
                                     exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
                                     irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
                                     pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
                                     deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit... <span class="read-more">Read More</span></p>
+                                    adipiscing elit... <span class="read-more">Read More</span>
+                                </p>
+                                <p class="mobile-description-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                                    nulla.Lorem ipsum dolor sit a... <span class="read-more">Read More</span> 
+                                </p>
                             </div>
                         </div>
                         <div>
-                            <button class="btn-search-more btn-see" type="submit"> <img
-                                    src="assets/img/icons/Vector.png" alt="vector">See More</button>
+                            <button class="btn-search-more btn-see" type="submit">
+                                <img src="assets/img/icons/Vector.png" alt="vector">
+                                See More
+                            </button>
                         </div>
                     </div>
                     <footer>
@@ -236,7 +282,7 @@
             </section>
         </main>
     </div>
-    <div class="form-pop">
+    <div class="form-pop" onclick="showloginNone()">
         <form action="#">
             <div class="container">
                 <div class="title-pop">
@@ -245,11 +291,10 @@
                 <div class="col">
                     <div class="btn-sign fb-btn">
                         <div class="btn-sign-text">
-                            <img src="assets/img/icons/svg/log in/Facebook.svg" alt="facebook">
+                            <img src="assets/img/icons/svg/log in/path14.png" alt="facebook">
                             <a href="#">Sign In with Facebook</a>
                         </div>
                     </div>
-
                     <div class="btn-sign google-btn">
                         <div class="btn-sign-text">
                             <img src="assets/img/icons/svg/log in/Google.svg" alt="google">
@@ -271,7 +316,7 @@
                     </div>
                 </div>
                 <div class="btn">
-                    <button type="submit" class="registerbtn">Sign In</button>
+                    <button type="submit" class="register-btn">Sign In</button>
                 </div>
                 <div class="forgot-password">
                     <a href="#">Forgot Your Password?</a>
@@ -280,7 +325,6 @@
                 <div class="register">
                     <span>Don’t have an account?<a href="#"> Register</a></span>
                 </div>
-
             </div>
         </form>
     </div>
