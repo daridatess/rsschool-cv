@@ -140,14 +140,13 @@ header {
 
 @media screen and (max-width: 390px) {
     .menu-items-travel {
-        opacity: 0;
-        display: block;
+        display: none;
         width: 165px;
         height: 250px;
         background-color: rgba(242, 120, 92, 1);
         position: relative;
-        top: 99px;
-        right: -75px;
+        top: 107px;
+        right: -95px;
         text-align: left;
         padding: 40px 10px 20px 10px;
         box-sizing: border-box;
@@ -155,7 +154,7 @@ header {
         z-index: 1;
     }
     .active-menu    {
-        opacity: 1;
+        display: block;
     }
     .menu-items-travel ul:not(:first-child) {
         display: block;
@@ -167,11 +166,11 @@ header {
     .menu-btn {
         width: 30px;
         height: 30px;
-        position: relative;
+        position: absolute;
         z-index: 2;
         overflow: hidden;
-        top: 0px;
-        left: 259px;
+        top: 45px;
+        left: 337px;
         cursor: pointer;
     }
     .menu-btn span {
